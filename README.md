@@ -8,6 +8,7 @@
 - [Features by Branch](#features-by-branch)
 - [Dialogue](#dialogue)
 - [Assignment 3 New Features](#assignment-3-new-features)
+- [Individual Project New Features](#individual-project-new-features)
 - [Data Flow Diagrams](#data-flow-diagrams)
 - [Project Demo](#project-demo)
 - [Contributors](#contributors)
@@ -108,6 +109,15 @@ python3 tests/fileReader.test.py
 ## Features by Branch
 
 <img src="./docs/images/newgraph.PNG" width="850" >
+
+## Individual Project New Features
+
+### Google Translate
+Google translate api has been implemented in all parts of dialouge. Any language that is recoginized by the API can and will be translated. For words with multiple language translations e.g. "mal" in french is "bad" but in german it's "times". This incongruence can lead to possible errors.
+
+### Wikipedia
+A simple wikipedia search has been implemented when the bot asks if the client has any medical questions. There can be issues if the top result does not match the intended result or there are too many results to choose from. 
+
 
 ## Dialogue
 
@@ -225,10 +235,12 @@ https://drive.google.com/file/d/1d1YoKrsMo2QLvyRmTXqykamdag-MjdqK/view
 
 https://drive.google.com/file/d/1ELe7H8BuCDFhErKWm7hDNFb-P9e7TTNP/view
 
+**Individual Project**
+https://drive.google.com/file/d/1uLtukifQE1giEcNsFDSIN6bIlq7dhnRn/view
 ## Contributors
 
 - [@d3li0n](https://github.com/d3li0n) - GUI, Automated Unit Testing, Code Refactoring, Project Management.
 - [@KentonMewling](https://github.com/KentonMewling) - Automated Unit Testing, Presentation.
-- [@RyanG418](https://github.com/RyanG418) - Documentation, Presentation.
+- [@RyanG418](https://github.com/RyanG418) - Documentation, Presentation, Every change in the individual assignment
 - [@vinui409](https://github.com/vinui409) - Documentation, Presentation.
 - [@OKThomas1](https://github.com/OKThomas1) - PorterStemmer, POS, Sentimental Analysis, and Synonym Recognition development.
